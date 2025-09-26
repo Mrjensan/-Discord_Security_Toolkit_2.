@@ -485,9 +485,9 @@ If this toolkit helped you learn about Discord security, please consider giving 
 
 Se este toolkit te ajudou a aprender sobre segurança do Discord, considere dar uma estrela!
 
-**Created with ❤️ by [Jensan](https://github.com/)**
+**Created with ❤️ by [Jensan](https://github.com/Mrjensan)**
 
-**🔗 GitHub: https://github.com/**
+**🔗 GitHub: https://github.com/Mrjensan/-Discord_Security_Toolkit_2
 
 </div>
 
