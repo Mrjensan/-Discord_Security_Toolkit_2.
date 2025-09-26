@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Jensan-blue?style=for-the-badge&logo=github)](https://github.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Mrjensan-blue?style=for-the-badge&logo=github)](https://github.com/)
 [![Python](https://img.shields.io/badge/Python-3.7+-green?style=for-the-badge&logo=python)](https://python.org)
 [![License](https://img.shields.io/badge/License-Educational-orange?style=for-the-badge)](#)
 [![Version](https://img.shields.io/badge/Version-2.0-red?style=for-the-badge)](#)
