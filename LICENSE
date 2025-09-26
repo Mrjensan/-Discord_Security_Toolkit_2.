@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Mrjensan
+Copyright (c) 2025 Jensan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,62 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 📜 License Terms for Educational Use
+
+This Discord Security Toolkit is licensed under the MIT License with additional
+educational use guidelines:
+
+### ✅ You ARE allowed to:
+- Use this software for educational purposes
+- Study the source code and methodologies
+- Modify and improve the codebase
+- Distribute copies with proper attribution
+- Use for personal security research (on your own resources)
+- Create derivative works based on this toolkit
+- Include in academic projects and research
+
+### ⚠️ Educational Use Guidelines:
+- Always use for legitimate educational purposes
+- Test only on resources you own or have explicit permission to test
+- Follow responsible disclosure practices for any findings
+- Respect the terms of service of all platforms you interact with
+- Maintain ethical standards in all security research activities
+
+### 🚫 You should NOT:
+- Use this software for malicious purposes
+- Test systems without proper authorization
+- Violate any applicable laws or regulations
+- Use for commercial penetration testing without proper licensing
+- Distribute without including this license and attribution
+
+### 📚 Educational Objectives:
+This toolkit is designed to help students, researchers, and security professionals
+learn about:
+- API security testing methodologies
+- Discord platform security architecture
+- Reverse engineering techniques
+- Responsible security research practices
+- Modern cybersecurity analysis methods
+
+### 🔗 Attribution Requirements:
+When using this software, please provide appropriate credit:
+- Author: Jensan
+- GitHub: https://github.com/
+- Project: Discord Security Toolkit v2.0
+
+### 📧 Contact:
+For questions about licensing, educational use, or contributions, please
+visit the GitHub repository or contact the author through appropriate channels.
+
+### 🌟 Contributing:
+Contributions are welcome! Please ensure all contributions maintain the
+educational focus and ethical standards of this project.
+
+---
+
+**Discord Security Toolkit v2.0 - Educational Security Research Framework**
+**Created by Jensan - https://github.com/**
+**© 2025 - Licensed under MIT License with Educational Use Guidelines**
