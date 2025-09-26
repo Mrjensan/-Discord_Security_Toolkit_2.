@@ -1,22 +1,367 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Discord Security Toolkit v2.0 - .gitignore
+# Created by Jensan - https://github.com/Mrjensan/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Security-specific ignores
+# IMPORTANT: Never commit sensitive data!
+
+# Discord tokens and credentials
+*.token
+*.credentials
+*_tokens.txt
+*_credentials.json
+auth_*
+token_*
+
+# API keys and secrets
+*.key
+*.secret
+api_keys.txt
+secrets.json
+.secrets
+.env.local
+.env.production
+
+# Security reports and logs
+reports/*.json
+reports/*.xml
+reports/*.html
+logs/*.log
+temp/*.tmp
+temp/*.temp
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Captured network traffic
+*.pcap
+*.pcapng
+captures/
+
+# Reverse engineering artifacts
+disassembly/
+decompiled/
+extracted/
+analysis/
+
+# Test data and fixtures
+test_data/
+fixtures/
+mock_responses/
+
+# Personal notes and research
+notes/
+research/
+personal/
+drafts/
+
+# IDE and editor files
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Configuration overrides (keep template, ignore personal configs)
+config_personal.ini
+config_local.ini
+local_config.py
+
+# Output files from security analysis
+discord_security_report_*.json
+discord_re_analysis_*.json
+*_analysis_*.json
+*_report_*.json
+
+# Screenshots and evidence (for privacy)
+screenshots/
+evidence/
+*.png
+*.jpg
+*.jpeg
+*.gif
+!docs/images/*
+
+# Compiled documentation
+docs/_build/
+docs/site/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Virtual environments
+venv*/
+ENV*/
+
+# Local development files
+local/
+dev/
+experimental/
+
+# Excluded for security reasons
+# Any file containing "token", "auth", "secret", "key", "password"
+*token*
+*auth*
+*secret*
+*key*
+*password*
+*credential*
+
+# Exception: Allow template and example files
+!*_template.*
+!*_example.*
+!example_*
+!template_*
+
+# Project-specific temporary files
+session_*.json
+cache_*.json
+temp_analysis_*.json
+
+# Logs from security toolkit
+discord_security.log
+security_analysis.log
+audit_*.log
+scan_*.log
+
+# Export files
+exports/
+outputs/
+generated/
+
+# Plugin files
+plugins/*.pyc
+plugins/__pycache__/
+
+# User-specific configuration
+user_config.json
+personal_settings.ini
+
+# Development databases
+dev.db
+test.db
+local.db
+
+# Certificates and keys
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Documentation builds (except templates)
+build/
+dist/
+
+# Node.js (if any frontend components added later)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python virtual environment variations
+bin/
+include/
+lib/
+lib64/
+Scripts/
+pyvenv.cfg
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+$RECYCLE.BIN/
+Desktop.ini
+
+# Linux
+*~
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Eclipse
+.project
+.metadata
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
